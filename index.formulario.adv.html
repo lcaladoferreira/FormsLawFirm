@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<div class="container">
+        <header class="header">
+          <h1 id="title" class="text-center"> CONFIDENTIAL CLIENT QUESTIONNAIRE </h1><br>
+          <p id="description" class="description text-center", style="text-align: justify";>
+      Please fill out this questionnaire to help to organize your case and save you money on attorney's fees in trying to gather and assemble information after the case is in progress. Since your answers I'll be made for an attorney, you are assured of confidentiality and are protected by the attorney-client privilege.    
+          </p>
+        </header>
+        <form id="survey-form">
+          <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="form-control"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form-control"
+              placeholder="Enter your Email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label id="number-label" for="number"
+              >Age<span class="clue">(optional)</span></label
+            >
+            <input
+              type="number"
+              name="age"
+              id="number"
+              min="10"
+              max="99"
+              class="form-control"
+              placeholder="Age"
+            />
+          </div>
+          <div class="form-group">
+            <p> How were you referred to this office?</p>
+            <select id="dropdown" name="role" class="form-control" required>
+              <option disabled selected value>Select</option>
+              <option value="google">Google</option>
+              <option value="facebook">Facebook</option>
+              <option value="linkedin">LinkedIn</option>
+              <option value="friendRef">Friend referral</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+      
+          <div class="form-group">
+            <p>Have you consulted or retained any other attorneys on this matter before coming to this office?</p>
+            <label>
+              <input
+                name="user-recommend"
+                value="definitely"
+                type="radio"
+                class="input-radio"
+                checked
+              />Yes</label
+            >
+            <label>
+              <input
+                name="user-recommend"
+                value="twice"
+                type="radio"
+                class="input-radio"
+              />Yes, more than one</label
+            >
+      
+            <label
+              ><input
+                name="user-recommend"
+                value="no"
+                type="radio"
+                class="input-radio"
+              />No</label
+            >
+          </div>
+      
+          <div class="form-group">
+            <p>
+              Have you tried to solve this matterm?
+            </p>
+            <select id="most-like" name="mostLike" class="form-control" required>
+              <option disabled selected value>Select an option</option>
+              <option value="yes">Yes, one try</option>
+              <option value="yes">Yes, twice</option>
+              <option value="no">No, I prefer to call a lawyer</option>
+              <option value="openSource">Open Source</option>
+            </select>
+          </div>
+      
+          <div class="form-group">
+            <p>
+              What kind of lawyer you need? 
+              <span class="clue">(Check all that apply)</span>
+            </p>
+      
+            <label
+              ><input
+                name="prefer"
+                value="bankruptcy-law"
+                type="checkbox"
+                class="input-checkbox"
+              />Bankruptcy Law</label
+            >
+            <label>
+              <input
+                name="prefer"
+                value="corporate-law"
+                type="checkbox"
+                class="input-checkbox"
+              />Corporate Law</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="family-child-custodyn"
+                type="checkbox"
+                class="input-checkbox"
+              />Family & Child Custody</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="guardianship"
+                type="checkbox"
+                class="input-checkbox"
+              />Guardianship</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="mediation"
+                type="checkbox"
+                class="input-checkbox"
+              />Mediation</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="wills-probates"
+                type="checkbox"
+                class="input-checkbox"
+              />Wills & Probate</label>
+            
+          </div>
+      
+          <div class="form-group">
+            <p>Please briefly summarize your matter:</p>
+            <textarea
+              id="comments"
+              class="input-textarea"
+              name="comment"
+              placeholder="Plase, enter your matter here..."
+            ></textarea>
+          </div>
+      
+          <div class="form-group">
+            <button type="submit" id="submit" class="submit-button">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
